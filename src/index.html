@@ -14,12 +14,13 @@
       <div class="main-initial">
         <p class="logo-slogan">
           <span class="logo-slogan-create">we create</span>
-          <b class="logo-slogan-designs">designs</b>
+          <b class="logo-slogan-designs">designs</b><br>
           <span class="logo-slogan-make">that make</span>
           <span class="logo-slogan-you">you</span>
           <span class="logo-slogan-proud">proud</span>
         </p>
-        </button class="header-open-content">See details</button>
+      </button class="header-open-content" aria-label="See details">
+      </button>
       </div>
       <section class="main-product container">
         <h2 class="page-title">We create product</h2>
@@ -114,7 +115,32 @@
           Selection of Award winning cleani are deyi web sites or andi are the
           websites with a strong use of clean design. It is reui sually.
         </p>
-        <!-- form -->
+        <form class="contact-us-form" method="post"
+        action="#">
+        <p class="contact-us-part-name">
+          <label for="contact-us-name visually-hidden">Full name</label>
+          <input id="contact-us-name" type="text" name="your_name" value=""
+           placeholder="Full name">
+        </p>
+        <p class="contact-us-part-email">
+          <label for="contact-us-email visually-hidden">E-mail</label>
+          <input id="contact-us-email" type="text" name="your_email" value=""
+          placeholder="E-mail">
+        </p>
+        <p class="contact-us-part-email">
+          <label for="contact-us-phone visually-hidden">Phone number</label>
+          <input id="contact-us-email" type="text" name="your_email" value=""
+          placeholder="Phone number (+240...)">
+        </p>
+        <p class="contact-us-part-text">
+          <label for="contact-us-text visually-hidden">Your message</label>
+          <textarea id="contact-us-text" name="your-text" rows="4"
+          placeholder="Your message..."></textarea>
+        </p>
+        <p class="contact-us-part-send">
+          <button class="button contact-us-send" type="submit">Submit</button>
+        </p>
+      </form>
       </section>
     </main>
     //= template/footer.html
