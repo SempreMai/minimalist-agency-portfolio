@@ -1,0 +1,87 @@
+@import "_themes";
+
+.main-text {
+  font: {
+    family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    size: 17px;
+  }
+  line-height: 28px;
+  color: $main-text-color;
+}
+
+.logo-slogan-create {
+  font: {
+    family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    size: 40px;
+    weight: 300;
+  }
+  line-height: 90px;
+  color: $slogan-reg-color;
+}
+
+.logo-slogan-designs {
+  font: {
+    family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    size: 100px;
+    weight: 900;
+  }
+  line-height: 100px;
+  color: $red-accent-color;
+  text-transform: uppercase;
+}
+
+.logo-slogan-make {
+  font: {
+    family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    size: 70px;
+    weight: 300;
+  }
+  line-height: 100px;
+}
+
+.page-title {
+  font: {
+    family: "Playfair Display", Georgia, Times, serif;
+    size: 60px;
+    weight: 400;
+  }
+  line-height: 122px;
+  color: $title-color;
+}
+
+.shadow-title {
+  font: {
+    family: "Playfair Display", Georgia, Times, serif;
+    size: 111px;
+    weight: 400;
+  }
+  line-height: 135px;
+  color: $shadow-title-color;
+}
+
+.rubric-subtitle {
+  font: {
+    family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    size: 16px;
+    weight: 700;
+  }
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.works-title {
+  font: {
+    family: "Playfair Display", Georgia, Times, serif;
+    size: 36px;
+    weight: 400;
+  }
+  line-height: 40px;
+  color: $title-color;
+}
+
+.small-text {
+  font: {
+    family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    size: 14px;
+  }
+}
