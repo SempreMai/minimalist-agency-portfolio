@@ -23,29 +23,42 @@ a {
 
 .logo-slogan-proud {
   @extend .logo-slogan-make;
-  color: #dbdbdb;
+  color: $slogan-reg-color;
 }
 
 .logo-slogan-you {
   @extend .logo-slogan-make;
-  color: #000000;
+  color: $black;
 }
 
 .product-description {
-  color: #393939;
+  color: $product-subtitle-color;
   text-transform: uppercase;
 }
 
+.section-product {
+  @extend .main-text;
+  font-weight: 400;
+  color: $main-text-color;
+}
+
 .ideas-title-description {
+  @extend .small-text;
   line-height: 20px;
-  color: #717171;
+  color: $ideas-subtitle-color;
   font-weight: 400;
 }
 
+.section-about {
+  @extend .main-text;
+  font-weight: 400;
+  color: $main-text-color;
+}
+
 .main-ideas-blog {
-  @extend .main-text
+  @extend .main-text;
   font-weight: 700;
-  color: #d22425;
+  color: $red-accent-color;
 }
 
 .ideas-decoration-title {
@@ -54,7 +67,7 @@ a {
 
 .ideas-decoration-slogan {
   @extend .rubric-subtitle;
-  color: #d22425;
+  color: $red-accent-color;
 }
 
 .main-works-list {
@@ -65,12 +78,13 @@ a {
   @extend .small-text;
   line-height: 24px;
   font-weight: 400;
+  color: $main-text-color;
 }
 
 .main-works-link {
   @extend .small-text;
   font-weight: 700;
-  color: #d22425;
+  color: $red-accent-color;
   text-transform: uppercase;
 }
 
@@ -78,6 +92,7 @@ a {
   @extend .small-text;
   line-height: 24px;
   font-weight: 400;
+  color: $main-text-color;
 }
 
 .main-footer {
@@ -87,9 +102,9 @@ a {
 }
 
 .footer-copyright {
-  color: #dbdbdb;
+  color: $slogan-reg-color;
 }
 
 .footer-copyright-link {
-  color: #d22425;
+  color: $red-accent-color;
 }
