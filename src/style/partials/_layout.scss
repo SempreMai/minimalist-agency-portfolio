@@ -1,5 +1,12 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+}
 .container {
-  width: 940px;
+  width: 1171px;
   margin: 0 auto;
   padding: 0;
 }
@@ -11,12 +18,21 @@
   justify-content: space-between;
   align-items: flex-end;
 
-  min-height: 100px;
+  min-width: 1376px;
+  min-height: 102px;
+  padding: {
+    left: 18.7%;
+    right: 9%;
+  }
 }
 
 .header-logo {
-  margin-left: 102px;
-  vertical-align: middle;
+
+}
+
+.hamburger-button {
+  margin: 0;
+  padding: 0;
 }
 
 .main-initial {
@@ -24,36 +40,180 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: flex-start;
-  margin: {
-    bottom: 410px;
-    left: 5px;
+  align-content: flex-start;
+
+  min-height: 620px; //Стили для сетки
+  margin-bottom: 210px;
+  padding: {
+    top: 246px;
+    right: 0;
+    bottom: 0;
+    left: 21%;
   }
 }
-
-.main-initial span {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  &:nth-child(1) {
-    margin-left: 7px;
-  }
-}
-
 
 .logo-slogan {
-  display: block;
-
-  width: 610px;
+  width: 612px;
   margin: {
-    top: 245px;
-    bottom: 165px;
-    left: 305px;
-
+    top: 0;
+    right: 0;
+    bottom: 325px;
+    left: 0;
   }
+  padding: 0;
+}
+
+.main-open-content {
+  align-self: center;
+}
+
+.main-product {
+  position: relative;
+
+  min-height: 592px; //Стили для сетки
+  margin-bottom: 289px;
 }
 
 h2, h3, h4 {
+  display: block;
+
   margin: 0;
   padding: 0;
+}
+
+.shadow-title {
+  position: absolute;
+  top: 40px;
+  left: -100px;
+}
+
+.product-description {
+  display: block;
+
+  margin: {
+    top: 0;
+    right: 0;
+    bottom: 45px;
+    left: 52px;
+  }
+  padding: 0;
+}
+
+.section-product {
+  width: 465px;
+  margin: {
+    top: 0;
+    right: 0;
+    bottom: 38px;
+    left: 52px;
+  }
+  padding: 0;
+}
+
+.main-ideas {
+  position: relative;
+
+  min-height: 925px; //Стили для сетки
+  margin-bottom: 320px;
+}
+
+.ideas-title-description {
+    width: 423px;
+    margin: {
+      top: 0;
+      right: 0;
+      bottom: 50px;
+      left: 209px;
+    }
+}
+
+.section-about-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 780px;
+    height: 635px;
+
+    margin-left: 100px;
+}
+
+.section-about {
+  width: 365px;
+  margin: {
+    top: 0;
+    right: 55px;
+    bottom: 45px;
+    left: 0;
+  }
+  padding: 0;
+}
+
+.main-ideas-decoration {
+  position: absolute;
+  bottom: 260px;
+  right: 115px;
+
+  width: 350px;
+  height: 100px;
+
+  text-align: center;
+  vertical-align: middle;
+
+  transform: rotate(-90deg);
+}
+
+.main-ideas-decoration span {
+    margin: 0;
+    padding: 0;
+}
+
+.main-works {
+  position: relative;
+
+  min-height: 510px; //Стили для сетки
+  margin-bottom: 160px;
+  padding-left: 20%;
+}
+
+.main-works-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+
+  margin: 0;
+  padding: 0;
+}
+
+.main-works-item {
+  display: block;
+  box-sizing: border-box;
+
+  width: 377px;
+  height: 260px;
+
+  margin: {
+    top: 0;
+    right: 0;
+    bottom: 50px;
+    left: 22px;
+  }
+  padding: 0;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.main-contact {
+  position: relative;
+
+  min-height: 580px; //Стили для сетки
+  margin-bottom: 168px;
+}
+
+.main-footer {
+  min-height: 154px;
 }

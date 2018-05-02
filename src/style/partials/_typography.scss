@@ -46,8 +46,20 @@
     size: 60px;
     weight: 400;
   }
-  line-height: 122px;
+  line-height: 100px;
   color: $title-color;
+  letter-spacing: 0.5px;
+}
+
+.title {
+  font: {
+    family: "Playfair Display", Times, serif;
+    size: 60px;
+    weight: 400;
+  }
+  line-height: 60px;
+  color: $title-color;
+  letter-spacing: 0.5px;
 }
 
 .shadow-title {
@@ -58,6 +70,7 @@
   }
   line-height: 135px;
   color: $shadow-title-color;
+  letter-spacing: 1.1px;
 }
 
 .rubric-subtitle {
@@ -68,6 +81,10 @@
   }
   line-height: 16px;
   text-transform: uppercase;
+}
+
+.product-description {
+  letter-spacing: 2.1px;
 }
 
 .works-title {
