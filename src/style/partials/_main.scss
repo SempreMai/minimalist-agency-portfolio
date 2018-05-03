@@ -3,6 +3,13 @@ body {
   margin: 0;
   padding: 0;
 
+  font: {
+    family: "Nunito Sans", Arial, sans-serif;
+    size: 17px;
+  }
+  line-height: 28px;
+  color: $main-text-color;
+
   background-color: #ffffff;
 }
 

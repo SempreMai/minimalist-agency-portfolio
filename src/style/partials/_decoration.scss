@@ -1,0 +1,178 @@
+.hamburger-button-wrapper {
+  position: relative;
+
+  width: 31px;
+  height: 25px;
+}
+
+.hamburger-button {
+  display: block;
+
+  width: 18px;
+  height: 3px;
+  margin: {
+    top: 10px;
+    right: 0;
+    bottom: 13px;
+    left: 13px;
+  }
+  padding: 0;
+
+  background-color: $black;
+
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.hamburger-button::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 31px;
+  height: 3px;
+
+  background-color: $black;
+}
+
+.hamburger-button::after {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 25px;
+  height: 3px;
+
+  background-color: $black;
+
+  transition: width 0.5s ease-in-out;
+}
+
+.hamburger-button:hover{
+  width: 31px;
+  margin-left: 0;
+}
+.hamburger-button:hover::after {
+  width: 31px;
+}
+
+.main-initial::before {
+  content: "";
+
+  position: absolute;
+  top: -102px;
+  left: -115px;
+
+  width: 564px;
+  height: 806px;
+
+  background: {
+    color: transparent;
+    image: url("../img/main-logo.png");
+    repeat: no-repeat;
+    position: 50% 50%;
+  }
+}
+
+.main-open-content {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+
+  width: 50px;
+  height: 50px;
+  margin-left: 360px;
+
+  border: 2px solid #e4e4e4;
+  border-radius: 50%;
+}
+
+.main-open-content::before {
+  content: "";
+
+  position: absolute;
+  top: 13px;
+  left: 16px;
+
+  width: 8px;
+  height: 8px;
+
+  background-color: transparent;
+  border: 2px solid $red-accent-color;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(45deg);
+}
+
+.main-product::before {
+  content: "";
+
+  position: absolute;
+  top: -32px;
+  right: 62px;
+
+  width: 426px;
+  height: 520px;
+
+  background: {
+    color: transparent;
+    image: url("../img/product-image.jpg");
+    repeat: no-repeat;
+    position: 50% 50%;
+  }
+  box-shadow: 60px 60px 0 0 $title-color;
+}
+
+.main-ideas::before {
+  content: "";
+
+  position: absolute;
+  top: 535px;
+  right: -112px;
+
+  width: 564px;
+  height: 373px;
+
+  background: {
+    color: transparent;
+    image: url("../img/ideas-decoration.png");
+    repeat: no-repeat;
+    position: 50% 50%;
+  }
+}
+
+.ideas-decoration-slogan::before {
+  content: "";
+
+  position: absolute;
+  top: 7px;
+  right: -110px;
+
+  width: 200px;
+  height: 2px;
+
+  background-color: $red-accent-color;
+}
+
+.ideas-decoration-slogan::after {
+  content: "";
+
+  position: absolute;
+  top: 7px;
+  right: -120px;
+
+  width: 3px;
+  height: 3px;
+
+  background-color: $red-accent-color;
+  border-radius: 50%;
+}
+
+.about-awards,
+.about-audio {
+  z-index: 1;
+}
