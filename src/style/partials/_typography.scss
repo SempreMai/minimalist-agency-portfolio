@@ -7,6 +7,14 @@
   }
   line-height: 28px;
   color: $main-text-color;
+  letter-spacing: -0.1px;
+}
+
+.about-fantastic:first-child::first-letter {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 80px;
+  color: $black;
 }
 
 .logo-slogan-create {

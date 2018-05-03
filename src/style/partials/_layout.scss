@@ -71,7 +71,7 @@
   position: relative;
 
   min-height: 592px; //Стили для сетки
-  margin-bottom: 289px;
+  margin-bottom: 258px;
 }
 
 h2, h3, h4 {
@@ -104,7 +104,7 @@ h2, h3, h4 {
   margin: {
     top: 0;
     right: 0;
-    bottom: 38px;
+    bottom: 30px;
     left: 52px;
   }
   padding: 0;
@@ -114,7 +114,7 @@ h2, h3, h4 {
   position: relative;
 
   min-height: 925px; //Стили для сетки
-  margin-bottom: 320px;
+  margin-bottom: 285px;
 }
 
 .ideas-title-description {
@@ -122,9 +122,10 @@ h2, h3, h4 {
     margin: {
       top: 0;
       right: 0;
-      bottom: 50px;
+      bottom: 42px;
       left: 209px;
     }
+    padding-top: 6px;
 }
 
 .section-about-wrapper {
@@ -144,10 +145,14 @@ h2, h3, h4 {
   margin: {
     top: 0;
     right: 55px;
-    bottom: 45px;
+    bottom: 30px;
     left: 0;
   }
   padding: 0;
+}
+
+.about-inspiration {
+  margin-top: 55px;
 }
 
 .main-ideas-decoration {
@@ -173,8 +178,17 @@ h2, h3, h4 {
   position: relative;
 
   min-height: 510px; //Стили для сетки
-  margin-bottom: 160px;
-  padding-left: 20%;
+  margin-bottom: 293px;
+  padding-left: 19.2%;
+}
+
+.main-works .page-title {
+    margin-bottom: 105px;
+}
+
+.main-works .shadow-title {
+  top: 20px;
+  left: 265px;
 }
 
 .main-works-list {
@@ -192,14 +206,14 @@ h2, h3, h4 {
   display: block;
   box-sizing: border-box;
 
-  width: 377px;
+  width: 375px;
   height: 260px;
 
   margin: {
     top: 0;
     right: 0;
-    bottom: 50px;
-    left: 22px;
+    bottom: 44px;
+    left: 20px;
   }
   padding: 0;
   &:first-child {
@@ -207,11 +221,24 @@ h2, h3, h4 {
   }
 }
 
+.main-works-item:last-child {
+  width: 352px;
+}
+
+.main-works-text {
+  width: 255px;
+}
+
 .main-contact {
   position: relative;
 
   min-height: 580px; //Стили для сетки
   margin-bottom: 168px;
+}
+
+.contact-title-description {
+  width: 296px;
+  margin: 19px 0;
 }
 
 .main-footer {
