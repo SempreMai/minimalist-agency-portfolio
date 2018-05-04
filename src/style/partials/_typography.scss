@@ -10,6 +10,10 @@
   letter-spacing: -0.1px;
 }
 
+.main-works-link {
+  letter-spacing: 1.7px;
+}
+
 .about-fantastic:first-child::first-letter {
   font-size: 100px;
   font-weight: 700;
@@ -111,4 +115,14 @@
     family: "Nunito Sans", Arial, sans-serif;
     size: 14px;
   }
+}
+
+.contact-us-form {
+  font: {
+    family: "Nunito Sans", Arial, sans-serif;
+    size: 16px;
+    weight: 400;
+  }
+  line-height: 22px;
+  color: $main-text-color;
 }

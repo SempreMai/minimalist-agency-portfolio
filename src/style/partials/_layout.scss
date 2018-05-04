@@ -187,7 +187,7 @@ h2, h3, h4 {
   position: relative;
 
   min-height: 510px; //Стили для сетки
-  margin-bottom: 293px;
+  margin-bottom: 288px;
   padding-left: 19.2%;
 }
 
@@ -221,7 +221,7 @@ h2, h3, h4 {
   margin: {
     top: 0;
     right: 0;
-    bottom: 44px;
+    bottom: 23px;
     left: 20px;
   }
   padding: 0;
@@ -231,7 +231,7 @@ h2, h3, h4 {
 }
 
 .main-works-item:last-child {
-  width: 352px;
+  width: 350px;
 }
 
 .main-works-text {
@@ -245,11 +245,79 @@ h2, h3, h4 {
   margin-bottom: 168px;
 }
 
+.contact-shadow-title {
+  top: 250px;
+  left: -220px;
+  transform: rotate(-90deg);
+}
+
 .contact-title-description {
   width: 296px;
-  margin: 19px 0;
+  margin: {
+    top: 19px;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+  }
+}
+
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-between;
+
+  width: 1032px;
+  height: 350px; //Стили для сетки
+  margin-left: 138px;
+}
+
+.contact-us-form fieldset {
+  margin: 0;
+  padding: 0;
+
+  border: none;
+}
+
+.contact-us-form .contact-us-item-text {
+  margin-bottom: 65px;
+}
+
+.contact-us-item input {
+  display: block;
+  width: 400px;
+  height: 60px;
+  margin: {
+    top: 0;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+  }
+  padding: 0;
+}
+
+.contact-us-item-text textarea {
+  display: block;
+  width: 562px;
+  height: 225px;
+  margin: 0;
+  padding: 0;
+  resize: none;
+}
+
+.contact-us-send {
+  align-self: flex-end;
+
+  display: block;
+  width: 128px;
+  height: 50px;
 }
 
 .main-footer {
+  position: relative;
+
+  padding-left: 150px;
+
   min-height: 154px;
 }

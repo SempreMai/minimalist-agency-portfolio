@@ -87,7 +87,7 @@
   height: 50px;
   margin-left: 360px;
 
-  border: 2px solid #e4e4e4;
+  border: $border;
   border-radius: 50%;
 }
 
@@ -175,4 +175,99 @@
 .about-awards,
 .about-audio {
   z-index: 1;
+}
+
+.main-ideas-blog {
+  display: block;
+  box-sizing: border-box;
+
+  width: 145px;
+  height: 50px;
+  padding-top: 10px;
+
+  text-align: center;
+  vertical-align: middle;
+
+  background-color: $white;
+  border:  $border;
+}
+
+.works-item-description {
+  padding: {
+    top: 40px;
+    left: 45px;
+  }
+  border:  $border;
+}
+
+.works-title {
+  width: 75px;
+  margin-bottom: 30px;
+}
+
+.works-item-img-first {
+  width: 376px;
+  height: 276px;
+
+  background: {
+    color: transparent;
+    image: url("../img/first-exhample.jpg");
+    repeat: no-repeat;
+    size: contain;
+    position: 0 0;
+  }
+}
+
+.works-item-img-second {
+  background: {
+    color: transparent;
+    image: url("../img/second-exhample.jpg");
+    repeat: no-repeat;
+    size: contain;
+    position: 0 0;
+  }
+}
+
+.works-item-img-third {
+  background: {
+    color: transparent;
+    image: url("../img/third-exhample.jpg");
+    repeat: no-repeat;
+    size: contain;
+    position: 0 0;
+  }
+}
+
+.contact-us-form input {
+  border: none;
+  border-bottom: $form-border;
+}
+
+.contact-us-form textarea {
+  border: none;
+  border-bottom: $form-border;
+}
+
+.contact-us-send {
+  text-align: center;
+  background-color: $red-accent-color;
+  border: none;
+}
+
+.main-footer::before {
+  content: "";
+
+  position: absolute;
+  left: -291px;
+  bottom: 0;
+
+  width: 421px;
+  height: 301px;
+
+  background: {
+    color: transparent;
+    image: url("../img/bottom-decoration.png");
+    repeat: no-repeat;
+    position: 0 0;
+  }
 }

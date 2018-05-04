@@ -119,6 +119,17 @@ label.visually-hidden {
   color: $main-text-color;
 }
 
+
+.contact-us-item input,
+.contact-us-item-text textarea {
+  @extend .contact-us-form;
+}
+
+.contact-us-send {
+  @extend .rubric-subtitle;
+  color: $white;
+}
+
 .main-footer {
   @extend .small-text;
   line-height: 20px;
@@ -127,6 +138,7 @@ label.visually-hidden {
 
 .footer-copyright {
   color: $slogan-reg-color;
+  z-index: 1;
 }
 
 .footer-copyright-link {
